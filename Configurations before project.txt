@@ -1,0 +1,20 @@
+01> Install Node
+02> Create package.json 			:	npm init ("nmp install" installs dependenecy from json file)
+03> Install webpack				:	npm install webpack --save-dev
+04> Install Liveserver				:	npm install live-server --global
+05> Create Webpack config file			: 	New file named - "webpack.config.js"
+06> Add NPM Script dev,build
+07> Install Webpack CLI				:	npm install webpack-cli --save-dev  
+08> Test everything 				:	npm run dev
+09> Inst WebpackDevserver			:	npm install webpack-dev-server --save-dev
+10> Modifiy  Webpack config for dev server
+11> Add script in package.json to start webpack dev server
+12> Install webpack plugin			: 	npm install html-webpack-plugin --save-dev
+13> Configure webpack.config.js for webpack plugin, it copies html from src to dist folder, add scripts src bundle.js
+14> Install Babel				:	npm install @babel/cli @babel/core @babel/preset-env babel-loader --save-dev
+15> Configure webpack.config.js for Babel, it converts ES6 to ES5 (rules-> test,exclude,use)
+16> Create Babel config File 			: New file named - ".babelrc"
+17> Configure .babelrc (preset->env->target->browsers)
+14> Install Polyfill				:	npm install babel-polyfill --save 
+15> Configure webpack.config.js for Polyfill (entry)
+
